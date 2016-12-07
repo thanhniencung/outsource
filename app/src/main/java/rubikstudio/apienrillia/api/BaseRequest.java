@@ -1,12 +1,10 @@
 package rubikstudio.apienrillia.api;
 
-import com.android.volley.Response;
 import com.android.volley.VolleyError;
 
 import java.util.Map;
 
 import rubikstudio.apienrillia.constant.Constant;
-import rubikstudio.apienrillia.model.BaseRes;
 
 /**
  * Created by kiennguyen on 12/7/16.

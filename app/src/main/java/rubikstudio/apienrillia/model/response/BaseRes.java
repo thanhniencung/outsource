@@ -1,4 +1,4 @@
-package rubikstudio.apienrillia.model;
+package rubikstudio.apienrillia.model.response;
 
 /**
  * Created by kiennguyen on 12/7/16.
