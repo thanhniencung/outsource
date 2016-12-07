@@ -27,6 +27,7 @@
         android:layout_height="1px"/>
 
     <ListView
+        android:listSelector="@android:color/transparent"
         android:clipToPadding="false"
         android:paddingTop="17dp"
         android:divider="@android:color/transparent"

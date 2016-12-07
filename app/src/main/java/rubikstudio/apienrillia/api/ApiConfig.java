@@ -5,7 +5,7 @@ package rubikstudio.apienrillia.api;
  */
 
 public class ApiConfig {
-    private static final String ROOT_API_URL = "INSERT_ROOT_URL";
+    private static final String ROOT_API_URL = "";
     private static final String SIGN_IN_API = "signin";
     private static final String SIGN_UP_API = "signup";
     private static final String PROVIDERS_API = "providers";

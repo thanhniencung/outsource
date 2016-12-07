@@ -26,7 +26,7 @@ public abstract class BaseRequest {
 
     protected void handleResponseError(VolleyError error) {
         // > 400
-        if (error != null) {
+        if (error != null && error.networkResponse != null) {
             callback.onErrorResponse(error.networkResponse.statusCode, null);
         } else {
             callback.onErrorResponse(Constant.StatusCode.UNKNOWN, null);
